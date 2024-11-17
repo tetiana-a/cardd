@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Details with Animation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="video-container">
+    <video autoplay muted loop class="background-video">
+      <source src="/background-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="overlay"></div>
+  <div class="card animated-card">
+    <div class="card-content">
+      <h2 class="card-title">Bank Details</h2>
+      <p><strong>Account Holder Name:</strong> Tetiana Kotolup</p>
+      <p><strong>IBAN:</strong> MT98CFTE28004000000000003475648</p>
+      <p><strong>BIC/SWIFT Code:</strong> CFTEMTM1</p>
+      <p><strong>Bank Name:</strong> OpenPayd</p>
+      <p><strong>Bank Address:</strong> Level 3, 137 Spinola Road, St. Julian’s, STJ 3011</p>
+      <p><strong>Bank Institution Country:</strong> Malta (MT)</p>
+    </div>
+  </div>
+   <!-- Background Music -->
+   <audio id="backgroundMusic" autoplay loop>
+    <source src="/1.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Music Controls -->
+  <div class="music-controls">
+    <button id="playPauseBtn">Pause Music</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
